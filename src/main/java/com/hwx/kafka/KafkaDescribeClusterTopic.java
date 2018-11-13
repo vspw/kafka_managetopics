@@ -41,7 +41,6 @@ public class KafkaDescribeClusterTopic {
 					"C:\\Users\\VenkataW\\eclipse-workspace\\managetopics\\resources\\jaas.conf");
 
 		}
-		//"hwxTestAdminClient1", "firm-ref-currency-byCode_temp","firm-monitor-topic"
 		String[] topics = {"__consumer_offsets"};
 		topicProperties = new Properties();
 
