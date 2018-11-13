@@ -34,7 +34,7 @@ public class KafkaCreateTopicAdminClient {
     String topic = "hwxTestAdminClient1";
     Properties topicConfig = new Properties(); // add per-topic configurations settings here
     
-    topicConfig.put(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, "ip-172-30-147-33.saccap.int:9100");
+    topicConfig.put(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, "node.hwx.com:9100");
     topicConfig.put(AdminClientConfig.SECURITY_PROTOCOL_CONFIG, SecurityProtocol.SASL_PLAINTEXT.toString());
     
 
